@@ -1,14 +1,10 @@
-/*Chiedi all’utente il suo nome,
-poi chiedi il suo cognome,
-poi chiedi il suo colore preferito
-Infine scrivi sulla pagina nomecognomecolorepreferito21*/
+const userName = prompt("Nome");
 
+const userSurname = prompt("Cognome");
 
-let userName = prompt("Nome");
+const userColor = prompt("Colore preferito");
 
-userSurname = prompt("Cognome");
-
-userColor = prompt("Colore preferito");
+const number = "21"
 
 console.log(userName);
 
@@ -16,10 +12,8 @@ console.log(userSurname);
 
 console.log(userColor);
 
-//const totalData = "userName" + " " + "userSurname" + " " + "useColor";
+console.log(number)
 
-//console.log(totalData)
-
-document.getElementById("userData").innerHTML= `userName` + ` ` + `userSurname` + ` ` + `userColor` ;
+document.getElementById("userData").innerHTML= userName + " " + userSurname + " "  + userColor + " " + 21 ;
 console.log(userData);
 
